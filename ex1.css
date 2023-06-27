@@ -1,0 +1,43 @@
+.main {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: auto;
+    color: grey;
+}
+.head {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.message {
+    font-size: large;
+}
+
+.number-box {
+    padding: 50px;
+}
+
+.number {
+    display: inline-block;
+    font-size: 170px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.number-1 {
+    color:yellow;
+}
+
+.number-2 {
+    color:coral;
+}
+
+.number-3 {
+    color:palevioletred;
+}
+
+.button {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+}
