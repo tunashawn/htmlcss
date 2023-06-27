@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
+    rel="stylesheet"
+    />
+    <style>
+        body {
+        }
+        img {
+            width: 150px;
+        }
+        .img-holder {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            background-image: linear-gradient(30deg, rgb(61, 92, 150), rgb(129, 232, 238));
+        }
+        .tab {
+            width: 400px;
+            height: 600px;
+            margin-top: 50%;
+            margin-left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 0 40px rgba(136, 136, 136, 0.779);
+            border-radius: 30px;
+        }
+        .inner {
+            margin: 50px;
+            padding-top: 20px;
+        }
+        .name {
+            font-size: 40px;
+            font-weight: 900;
+            padding-top: 20px;
+        }
+        .button-group {
+            display: flex;
+            width: 300px;
+            padding-top: 20px;
+            padding-bottom: 40px;
+            gap: 6.3px;
+        }
+
+        button {
+            border-radius: 20px;
+            border: none;
+        }
+
+        button.size {
+            width: 70px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(136, 136, 136, 0.363);
+            &:active {
+                background-color: rgb(201, 100, 100);
+            }
+            &:visited {
+                background-color: rgb(201, 100, 100);
+            }
+        }
+
+        button.purchase {
+            width: 300px;
+            height: 40px;
+            background-color: #778FFF;
+            color:white;
+        }
+        
+    </style>
+
+   
+
+</head>
+<body>
+    <div class="tab">
+        <div class="inner">
+            <div class="img-holder d-flex align-items-center mx-auto">
+                <img class="mx-auto" src="https://cdn.runningshoesguru.com/wp-content/uploads/2020/04/no-bg-370x250.png" alt="img">
+            </div>
+            <div class="name">
+                <p>Nike Adaption</p>
+            </div>
+            <div>
+                <p>FUTURE-READY TRAINERS WITH WRAPPED BOOST FOR EXCEPTIONAL COMFORT.</p>
+            </div>
+            
+            <div id="size-buttons" class="button-group grid-container">
+                <div>
+                    <button class="size" onclick="chooseSize(this)" value="38" id="btn">38</button>
+                </div>
+                <div>
+                    <button class="size" onclick="chooseSize(this)" value="40" id="btn">40</button>
+                </div>
+                <div>
+                    <button class="size" onclick="chooseSize(this)" value="43" id="btn">43</button>
+                </div>
+                <div>
+                    <button class="size" onclick="chooseSize(this)" value="44" id="btn">44</button>
+                </div>
+            </div>
+            <div>
+                <button class="purchase" onclick="purchase()">
+                    Purchase
+                </button>
+            </div>
+            <p class="msg"></p>
+        </div>
+    </div>
+
+
+
+    <script>
+        function chooseSize(s) {
+            s.toggle('active')
+        }
+
+        function purchase() {
+
+        }
+    </script>
+
+
+
+</body>
+</html>
