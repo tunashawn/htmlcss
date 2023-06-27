@@ -1,5 +1,4 @@
-# htmlcssjspractice
-## Just my practices in my fullstack job
+# Just my practices in my fullstack job 
 
 ## Ex1 result: A simple 404 page
 
