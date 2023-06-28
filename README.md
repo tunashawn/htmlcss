@@ -7,3 +7,6 @@
 ## Ex2 result: Social media buttons with hover effects and links
 
 <img width="961" alt="Screenshot 2023-06-27 at 6 19 06 PM" src="https://github.com/tunashawn/htmlcssjspractice/assets/73065657/cf7dff06-86d0-4112-828c-3e5838065ef9">
+
+## Ex3 result: 3D card
+

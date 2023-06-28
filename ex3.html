@@ -4,138 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
 
-    <!-- Google Fonts -->
-    <link
-    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-    rel="stylesheet"
-    />
-    <!-- MDB -->
-    <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
-    rel="stylesheet"
-    />
-    <style>
-        body {
-        }
-        img {
-            width: 150px;
-        }
-        .img-holder {
-            width: 200px;
-            height: 200px;
-            border-radius: 100%;
-            background-image: linear-gradient(30deg, rgb(61, 92, 150), rgb(129, 232, 238));
-        }
-        .tab {
-            display: block;
-            position: absolute;
-            width: 400px;
-            height: 600px;
-            
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-            box-shadow: 0 0 40px rgba(136, 136, 136, 0.779);
-            border-radius: 30px;
-        }
-        .inner {
-            margin: 50px;
-            padding-top: 20px;
-        }
-        .name {
-            font-size: 40px;
-            font-weight: 900;
-            padding-top: 20px;
-        }
-        .button-group {
-            display: flex;
-            width: 300px;
-            padding-top: 20px;
-            padding-bottom: 40px;
-            gap: 6.3px;
-        }
-
-        button {
-            border-radius: 20px;
-            border: none;
-        }
-
-        button.size {
-            width: 70px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(136, 136, 136, 0.363);
-            &:active {
-                background-color: rgb(201, 100, 100);
-            }
-            &:visited {
-                background-color: rgb(201, 100, 100);
-            }
-        }
-
-        button.purchase {
-            width: 300px;
-            height: 40px;
-            background-color: #778FFF;
-            color:white;
-        }
-        
-    </style>
-
-   
-
+    <link rel="stylesheet" href="ex3.css">
 </head>
 <body>
-    <div class="tab">
-        <div class="inner">
-            <div class="img-holder d-flex align-items-center mx-auto">
-                <img class="mx-auto" src="https://cdn.runningshoesguru.com/wp-content/uploads/2020/04/no-bg-370x250.png" alt="img">
+    <div class="container">
+        <div class="card">
+            <div class="sneaker">
+                <div class="circle"></div>
+                <img src="https://cdn.runningshoesguru.com/wp-content/uploads/2020/04/no-bg-370x250.png" alt="sneaker-img">
             </div>
-            <div class="name">
-                <p>Nike Adaption</p>
-            </div>
-            <div>
-                <p>FUTURE-READY TRAINERS WITH WRAPPED BOOST FOR EXCEPTIONAL COMFORT.</p>
-            </div>
-            
-            <div id="size-buttons" class="button-group grid-container">
-                <div>
-                    <button class="size" onclick="chooseSize(this)" value="38" id="btn">38</button>
+            <div class="info">
+                <h1 class="title">TRACK 6 I.S.E.E</h1>
+                <h3>WHATEVER IT IS, THIS SHOE IS WHAT IT IS AND IT IS A PRETTY GOOD SHOE</h3>
+                <div class="sizes">
+                    <button>39</button>
+                    <button class="active">40</button>
+                    <button>41</button>
+                    <button>42</button>
                 </div>
-                <div>
-                    <button class="size" onclick="chooseSize(this)" value="40" id="btn">40</button>
-                </div>
-                <div>
-                    <button class="size" onclick="chooseSize(this)" value="43" id="btn">43</button>
-                </div>
-                <div>
-                    <button class="size" onclick="chooseSize(this)" value="44" id="btn">44</button>
+                <div class="purchase">
+                    <button>Purchase</button>
                 </div>
             </div>
-            <div>
-                <button class="purchase" onclick="purchase()">
-                    Purchase
-                </button>
-            </div>
-            <p class="msg"></p>
         </div>
+
     </div>
-
-
-
-    <script>
-        function chooseSize(s) {
-            s.toggle('active')
-        }
-
-        function purchase() {
-
-        }
-    </script>
-
-
-
+    <script src="ex3.js"></script>
 </body>
 </html>
