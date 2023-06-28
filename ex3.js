@@ -17,7 +17,7 @@ container.addEventListener('mouseenter', (e) => {
     card.style.transition = 'none'
     // Popout text
     title.style.transform = "translateZ(150px)"
-    sneaker.style.transform = "translateZ(150px)"
+    sneaker.style.transform = "rotate(20deg)"
 })
 
 // Animate OUT
@@ -26,4 +26,7 @@ container.addEventListener('mouseleave', (e) => {
     card.style.transform = `rotateY(0deg) rotateX(0deg)`
     // Popout text
     title.style.transform = "translateZ(0px)"
+    sneaker.style.transform = "rotate(0deg)"
+    sneaker.style.transition = 'all 0.5s ease'
+
 })

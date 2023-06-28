@@ -43,12 +43,12 @@ body {
 }
 
 .circle {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     background: linear-gradient(
         to right,
-        rgba(37, 197, 32, 0.624),
-        rgba(186, 164, 37, 0.5)
+        rgba(25, 179, 226, 0.624),
+        rgba(76, 76, 75, 0.5)
     );
     position: absolute;
     border-radius: 50%;

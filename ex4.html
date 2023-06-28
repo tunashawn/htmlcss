@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="ex4.js"></script>
+    <link rel="stylesheet" href="ex4.css">
+</head>
+<body>
+    <div class="container">
+        
+        <button class="share-btn" onclick="showShareMenu()">
+            <i class="fa fa-share-alt"></i>
+        </button>
+        
+        <div id="hidden" class="hidden">
+            <div class="share-title">
+                Share 
+                <button id="dismiss" class="dismiss" onclick="hideShareMenu()">
+                    <i class="fa fa-remove"></i>
+                </button>
+            </div>
+            <ul>
+                <li>Facebook</li>
+                <li>Messenger</li>
+                <li>Google</li>
+                <li>Steam</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
