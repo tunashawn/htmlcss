@@ -1,0 +1,64 @@
+
+ul {
+    padding: 0;
+    margin: 0;
+    float: left;
+    height: 40px;
+    transition: 2s;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    
+}
+a {
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    height: max-content;
+    color: aliceblue;
+}
+
+/* choice of all levels */
+li {
+    background: rgb(219, 91, 52);
+    float: left;
+    position: relative;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    top: 0;
+}
+
+/* level 1 drop down */
+ul ul {
+    position: absolute;
+    display: none;
+    left: 0;
+    float: left;
+}
+/* choice of level 1 */
+ul ul li {
+    display: block;
+    position: relative;
+    left: 0;
+    top: 10px;
+}
+
+
+li:hover > ul {
+    display: block;
+}
+
+/* level 2 dropdown */
+ul ul ul {
+    display: none;
+    left: 100%;
+    top: -10px;
+}
+
+li > li:hover > ul {
+    display: block;
+}
+
+li:hover {
+    background-color: rgb(175, 72, 41);
+}
