@@ -25,7 +25,9 @@
 <img width="200" alt="SCR-20230629-krle" src="https://github.com/tunashawn/htmlcssjspractice/assets/73065657/a8649fe8-2a89-4f6d-a490-d5244ca46cad">
 
 ## Ex7: Toggle buttons
+
 ![Alt text](image-1.png)
+![Alt text](image-2.png)
 
 ## Ex8: Login menu
 
