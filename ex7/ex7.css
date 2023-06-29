@@ -1,0 +1,61 @@
+:root {
+    --primary: #6d5dfc;
+    --primary-light: #8abdff;  
+    --primary-dark: #5b0eeb;
+    --white: #FFFFFF;
+    --greyLight-1: #E4EBF5;
+    --greyLight-2: #c8d0e7;
+    --greyLight-3: #bec8e4;
+    --greyDark: #9baacf;
+  }
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    background: #EBF5FC;
+}
+
+.container {
+    width: 200pt;
+    height: 300pt;
+    border-radius: 10pt;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.119), -5px -5px 5px rgb(253, 253, 253, 0.6);
+}
+
+.pad {
+    margin: 0;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(2, 6rem);
+    height: 100%;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+label {
+    width: 50pt;
+    height: 50pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10pt;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.119), -5px -5px 5px rgb(253, 253, 253, 0.6);
+    background: #EBF5FC;
+    cursor: pointer;
+    font-size: 20pt;
+    color: #679CD6;
+}
+
+input {
+    display: none;
+}
+
+input:checked + label {
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.119), inset -5px -5px 5px rgb(253, 253, 253, 0.6);
+}
