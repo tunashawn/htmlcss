@@ -1,14 +1,3 @@
-:root {
-    --primary: #6d5dfc;
-    --primary-light: #8abdff;  
-    --primary-dark: #5b0eeb;
-    --white: #FFFFFF;
-    --greyLight-1: #E4EBF5;
-    --greyLight-2: #c8d0e7;
-    --greyLight-3: #bec8e4;
-    --greyDark: #9baacf;
-  }
-
 html, body {
     width: 100%;
     height: 100%;
