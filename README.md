@@ -24,3 +24,9 @@
 <img width="200" alt="SCR-20230629-krov" src="https://github.com/tunashawn/htmlcssjspractice/assets/73065657/8d04e220-e2d6-48df-b7a4-2d674e972915">
 <img width="200" alt="SCR-20230629-krle" src="https://github.com/tunashawn/htmlcssjspractice/assets/73065657/a8649fe8-2a89-4f6d-a490-d5244ca46cad">
 
+## Ex7: Toggle buttons
+![Alt text](image-1.png)
+
+## Ex8: Login menu
+
+![Alt text](image.png)
