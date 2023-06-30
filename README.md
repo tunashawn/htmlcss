@@ -21,14 +21,20 @@
 
 ## Ex6: Another Dropdown menu
 
-<img width="200" alt="SCR-20230629-krov" src="https://github.com/tunashawn/htmlcssjspractice/assets/73065657/8d04e220-e2d6-48df-b7a4-2d674e972915">
-<img width="200" alt="SCR-20230629-krle" src="https://github.com/tunashawn/htmlcssjspractice/assets/73065657/a8649fe8-2a89-4f6d-a490-d5244ca46cad">
+<img width="300" alt="SCR-20230629-krov" src="https://github.com/tunashawn/htmlcssjspractice/assets/73065657/8d04e220-e2d6-48df-b7a4-2d674e972915">
+<img width="300" alt="SCR-20230629-krle" src="https://github.com/tunashawn/htmlcssjspractice/assets/73065657/a8649fe8-2a89-4f6d-a490-d5244ca46cad">
 
 ## Ex7: Toggle buttons
 
-![Alt text](image-1.png)
-![Alt text](image-2.png)
+<img width="300" src="image-1.png">
+<img width="300" src="image-2.png">
 
 ## Ex8: Login menu
 
-![Alt text](image.png)
+<img width="500" src="image.png">
+
+
+## Ex9: Toggle buttons
+
+<img width="200" src="image-3.png">
+<img width="200" src="image-4.png">
