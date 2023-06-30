@@ -38,3 +38,7 @@
 
 <img width="200" src="image-3.png">
 <img width="200" src="image-4.png">
+
+## Ex10: report timeline
+
+<img width="400" src="image-5.png">
