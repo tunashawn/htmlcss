@@ -50,3 +50,8 @@
 ## Ex12: Canvas
 
 <img width="400" src="image-7.png">
+
+
+## Ex13: Progression
+
+<img width="400" src="image-8.png">
