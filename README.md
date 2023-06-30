@@ -42,3 +42,7 @@
 ## Ex10: report timeline
 
 <img width="400" src="image-5.png">
+
+## Ex11: Countdown to new year
+
+<img width="400" src="image-6.png">
