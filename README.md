@@ -46,3 +46,7 @@
 ## Ex11: Countdown to new year
 
 <img width="400" src="image-6.png">
+
+## Ex12: Canvas
+
+<img width="400" src="image-7.png">
